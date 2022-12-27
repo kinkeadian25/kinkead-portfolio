@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <main>
+    <main className='bg-gray-900 text-teal-600'>
       <NavBar />
       <AboutMe />
       <CodingJourney />
