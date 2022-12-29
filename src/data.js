@@ -29,6 +29,6 @@ export const projects = [
     description:
       "This is a work in progress class project for the Microsoft Software and Systems Academy. I helped spearhead the planning by deciding on frameworks and tools to use. I also help approve code for the frontend and backend.",
     image: "./images/project-4.gif",
-    link: "https://github.com",
+    link: "https://github.com/CowboyDevOps/ChoppingBlogs",
   },
 ];
