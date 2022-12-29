@@ -1,16 +1,16 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
-import CodingJourney from './components/CodingJourney';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 function App() {
   return (
-    <main className='bg-slate-900 text-sky-600'>
+    <main className='bg-gradient-to-br from-slate-900 to-teal-900 text-sky-600'>
       <NavBar />
+      <Home />
       <AboutMe />
-      <CodingJourney />
       <Projects />
       <Contact />
     </main>

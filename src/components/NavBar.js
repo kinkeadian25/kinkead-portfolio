@@ -5,32 +5,32 @@ function NavBar() {
 
   return (
     <div className="flex container w-full mx-auto justify-between items-center font-bold text-2xl px-5 py-6">
-      <a href="#AboutMe" className="ml-5 mr-20 text-xl hover:text-white">
+      <a href="#home" className="ml-5 mr-20 text-xl hover:text-white">
         IK
       </a>
       <nav className="hidden md:flex space-x-10 items-center">
         <a
-          href="#CodingJourney"
-          className="mr-5 hover:text-slate-500 hover:underline"
+          href="#about"
+          className="font-normal text-xl hover:text-slate-500 hover:underline"
         >
-          Coding Journey
+          About Me
         </a>
         <a
-          href="#Projects"
-          className="mr-5 hover:text-slate-500 hover:underline"
+          href="#projects"
+          className="px-6 font-normal text-xl hover:text-slate-500 hover:underline"
         >
           Projects
         </a>
         <a
-          href="#Contact"
-          className="mr-0 hover:text-slate-500 hover:underline"
+          href="#contact"
+          className="font-normal text-xl hover:text-slate-500 hover:underline"
         >
           Contact
         </a>
       </nav>
       <div className="md:hidden">
         {isOpen ? (
-          <div className="bg-slate-600 border-1px border-red-100/20 fixed w-24rem right-0 top-0 h-100vh transition translate-x-1px rounded-lg text-white">
+          <div className="bg-slate-800 border-1px border-red-100/20 fixed w-24rem right-0 top-0 h-100vh transition translate-x-1px rounded-lg text-white">
             <div className="pt-5 pb-6 px-5">
               <button onClick={() => setIsOpen(!isOpen)}>
                 <svg
@@ -52,19 +52,19 @@ function NavBar() {
               <div className="t-5rem z-10 relative">
                 <nav className="grid gap-y-8">
                   <a
-                    href="#CodingJourney"
+                    href="#about"
                     className="mr-5 hover:text-sky-600 hover:underline text-sm"
                   >
-                    Coding Journey
+                    About Me
                   </a>
                   <a
-                    href="#Projects"
+                    href="#projects"
                     className="mr-5 hover:text-sky-600 hover:underline text-sm"
                   >
                     Projects
                   </a>
                   <a
-                    href="#Contact"
+                    href="#contact"
                     className="mr-0 hover:text-sky-600 hover:underline text-sm"
                   >
                     Contact
