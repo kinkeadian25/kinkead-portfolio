@@ -11,12 +11,10 @@ function Projects() {
               Projects and Work
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo facilis repellat ab cupiditate alias vero aliquid
-              obcaecati quisquam fuga dolore.
+              All of the gifs below are examples of my projects and work that I am mosted excited about! Mouse over them for more details and click to use them or see their github repo if they are not published!
             </p>
           </div>
-          <div className="flex flex-col flex-grow justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             {projects.map((project) => (
               <a
                 href={project.link}
