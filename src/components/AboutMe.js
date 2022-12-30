@@ -25,6 +25,9 @@ export default function AboutMe() {
               high-performing and maintainable everyday.
             </p>
             <p className="my-3 text-slate-400 text-lg">
+              In the Navy, I was a Mass Communication Specialist. I mostly rleased photos, videos, and graphics for internal and external audiences. I was on an aircraft carrier and rode in lots of helicopters. Scroll to the top and click the camera icon to see some of my work from that time!
+            </p>
+            <p className="my-3 text-slate-400 text-lg">
               In the future, I would love to work for a company whose goal is to
               make and maintain apps that help anyone and everyone be the best
               version of themselves!

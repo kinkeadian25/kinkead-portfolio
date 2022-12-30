@@ -6,21 +6,27 @@ function NavBar() {
   return (
     <div className="flex container w-full mx-auto justify-between items-center font-bold text-2xl px-5 py-6">
       <ul className="flex items-center space-x-6">
-      <a href="#home" className="ml-5 text-xl hover:text-white">
-        IK
-      </a>
-      <a
-        href="https://github.com/kinkeadian25"
-        className="w-6 hover:text-white"
-      >
-        <img src="./images/github.png" alt="github" />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/ian-kinkead/"
-        className="w-6 hover:text-white"
-      >
-        <img src="./images/linkedin.png" alt="linkedin" />
-      </a>
+        <a href="#home" className="ml-5 text-xl hover:text-white">
+          IK
+        </a>
+        <a
+          href="https://github.com/kinkeadian25"
+          className="w-6 hover:text-white"
+        >
+          <img src="./images/github.png" alt="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ian-kinkead/"
+          className="w-6 hover:text-white"
+        >
+          <img src="./images/linkedin.png" alt="linkedin" />
+        </a>
+        <a
+          href="https://kinkeadian.myportfolio.com/"
+          className="w-6 hover:text-white"
+        >
+          <img src="./images/camera.png" alt="portfolio creative" />
+        </a>
       </ul>
       <nav className="hidden md:flex space-x-10 items-center">
         <a
