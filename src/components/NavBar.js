@@ -5,6 +5,7 @@ function NavBar() {
 
   return (
     <div className="flex container w-full mx-auto justify-between items-center font-bold text-2xl px-5 py-6">
+      <ul className="flex items-center space-x-6">
       <a href="#home" className="ml-5 text-xl hover:text-white">
         IK
       </a>
@@ -20,6 +21,7 @@ function NavBar() {
       >
         <img src="./images/linkedin.png" alt="linkedin" />
       </a>
+      </ul>
       <nav className="hidden md:flex space-x-10 items-center">
         <a
           href="#about"
