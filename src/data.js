@@ -19,7 +19,7 @@ export const projects = [
     title: "Roslyn Open Source Contributions",
     subtitle: "C#",
     description:
-      "I have been contributing to dotnet/roslyn on github. I have contributed to the C# compiler and IDE. My contributions have mostly been to help improve the performance of code fix and implementation providers",
+      "I have been contributing to dotnet/roslyn on github. I have contributed to the C# compiler and IDE. My contributions have mostly been to help improve the performance of different code fix providers and what not!",
     image: "./images/project-3.gif",
     link: "https://github.com/kinkeadian25/roslyn",
   },
