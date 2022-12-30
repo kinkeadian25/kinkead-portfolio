@@ -50,7 +50,7 @@ function NavBar() {
       </nav>
       <div className="md:hidden">
         {isOpen ? (
-          <div className="bg-slate-800 border-1px border-red-100/20 fixed w-24rem right-0 top-0 h-100vh transition translate-x-1px rounded-lg text-white">
+          <div className="bg-slate-800 border-1px border-red-100/20 fixed w-24rem right-0 top-0 h-100vh transition translate-x-1px rounded-lg text-white z-50">
             <div className="pt-5 pb-6 px-5">
               <button onClick={() => setIsOpen(!isOpen)}>
                 <svg
