@@ -39,7 +39,7 @@ export default function AboutMe() {
             <span className="text-slate-600">&#47;&#47; </span>
             Console.WriteLine(<span className="text-slate-200">skills</span>);
           </h1>
-          <div className="bg-black border px-4 border-slate-400 mt-6 shadow-xl grid gap-4 grid-cols-3 grid-rows-1">
+          <div className="bg-black border px-4 border-slate-400 mt-6 shadow-xl grid gap-4 grid-cols-2 grid-rows-1">
             <div className="col-span-1 row-span-1">
               <h2 className="text-slate-400 text-lg mt-3">Coding</h2>
               <ul className="list-disc list-inside mb-3">
@@ -57,7 +57,7 @@ export default function AboutMe() {
               </ul>
             </div>
             <div className="col-span-1 row-span-1">
-              <h2 className="text-slate-400 text-lg mt-3">Soft Skills</h2>
+              <h2 className="text-slate-400 text-lg mt-3">Other</h2>
               <ul className="list-disc list-inside mb-3">
                 <li className="text-slate-400 text-lg">Adaptability</li>
                 <li className="text-slate-400 text-lg">Stakeholder Man.</li>
@@ -66,26 +66,10 @@ export default function AboutMe() {
                 <li className="text-slate-400 text-lg">Fast-Learner</li>
                 <li className="text-slate-400 text-lg">Growth Mindset</li>
                 <li className="text-slate-400 text-lg">Communication</li>
-                <li className="text-slate-400 text-lg">Loyalty</li>
-                <li className="text-slate-400 text-lg">Integrity</li>
-                <li className="text-slate-400 text-lg">Planning</li>
-                <li className="text-slate-400 text-lg">Problem-Solving</li>
-              </ul>
-            </div>
-            <div className="col-span-1 row-span-1 pl-5">
-              <h2 className="text-slate-400 text-lg mt-3">Other</h2>
-              <ul className="list-disc list-inside mb-3">
                 <li className="text-slate-400 text-lg">Adobe CC</li>
-                <li className="text-slate-400 text-lg">Video Editing</li>
                 <li className="text-slate-400 text-lg">Graphic Design</li>
-                <li className="text-slate-400 text-lg">Photography</li>
-                <li className="text-slate-400 text-lg">Copy-Editing</li>
-                <li className="text-slate-400 text-lg">Documentation</li>
-                <li className="text-slate-400 text-lg">Program Man.</li>
                 <li className="text-slate-400 text-lg">Figma</li>
-                <li className="text-slate-400 text-lg">AV Tech.</li>
-                <li className="text-slate-400 text-lg">Audio Eng.</li>
-                <li className="text-slate-400 text-lg">Microsoft Office</li>
+                <li className="text-slate-400 text-lg">Problem-Solving</li>
               </ul>
             </div>
           </div>

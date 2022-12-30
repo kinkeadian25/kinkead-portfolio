@@ -7,7 +7,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <main className='bg-gradient-to-br from-slate-900 to-teal-900 text-sky-600'>
+    <main className='bg-gradient-to-br from-slate-900 to-teal-900 text-sky-600 overflow-x-hidden'>
       <NavBar />
       <Home />
       <AboutMe />

@@ -5,8 +5,20 @@ function NavBar() {
 
   return (
     <div className="flex container w-full mx-auto justify-between items-center font-bold text-2xl px-5 py-6">
-      <a href="#home" className="ml-5 mr-20 text-xl hover:text-white">
+      <a href="#home" className="ml-5 text-xl hover:text-white">
         IK
+      </a>
+      <a
+        href="https://github.com/kinkeadian25"
+        className="w-6 hover:text-white"
+      >
+        <img src="./images/github.png" alt="github" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ian-kinkead/"
+        className="w-6 hover:text-white"
+      >
+        <img src="./images/linkedin.png" alt="linkedin" />
       </a>
       <nav className="hidden md:flex space-x-10 items-center">
         <a
@@ -28,7 +40,7 @@ function NavBar() {
           Contact
         </a>
       </nav>
-      <div className="md:hidden">
+      <div className="md:hidden ml-80">
         {isOpen ? (
           <div className="bg-slate-800 border-1px border-red-100/20 fixed w-24rem right-0 top-0 h-100vh transition translate-x-1px rounded-lg text-white">
             <div className="pt-5 pb-6 px-5">
