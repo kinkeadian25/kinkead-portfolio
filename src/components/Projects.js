@@ -11,15 +11,15 @@ function Projects() {
               Projects and Work
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              All of the gifs below are examples of my projects and work that I am most excited about! Mouse over them for more details and click to use them or see their github repo if they are not published!
+              All of the gifs below are examples of my projects and work that I am mosted excited about! Mouse over them for more details and click to use them or see their github repo if they are not published!
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center w-auto h-auto ml">
             {projects.map((project) => (
               <a
                 href={project.link}
                 key={project.image}
-                className="md:w-1/2 sm:w-3/4 h-100 p-5 border-2 border-slate-800 rounded-xl shadow-xl mb-5"
+                className="sm:w-3/4 md:w-3/4 lg:w-1/2 h-auto p-5 border-2 border-slate-800 rounded-xl shadow-xl mb-5"
               >
                 <div className="flex relative">
                   <img

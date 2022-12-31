@@ -15,7 +15,7 @@ export default function AboutMe() {
             <span className="text-slate-600">&#47;&#47; </span>
             Console.WriteLine(<span className="text-slate-200">aboutMe</span>);
           </h1>
-          <div className="bg-black border px-3 border-slate-400 m-6 md:mx-80 shadow-xl">
+          <div className="bg-black border px-3 border-slate-400 m-6 shadow-xl">
             <p className="my-3 text-slate-400 text-lg">
               Hello! My name is Ian Kinkead. I am a Navy Veteran and Microsoft
               Software and Systems Academy student! I love building software! In

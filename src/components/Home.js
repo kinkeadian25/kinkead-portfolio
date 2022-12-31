@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="text-7xl font-semibold text-slate-300 pb-4">
             Ian Kinkead
           </h1>
-          <h2 className="text-6xl font-medium text-slate-500 pb-10">
+          <h2 className="text-5xl font-medium text-slate-500 pb-10">
             I build software.
           </h2>
           <p className="leading-relaxed text-slate-500 text-lg text-center rounded-lg shadow-2xl">
