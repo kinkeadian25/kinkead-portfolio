@@ -11,7 +11,7 @@ function Projects() {
               Projects and Work
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              All of the gifs below are examples of my projects and work that I am mosted excited about! Mouse over them for more details and click to use them or see their github repo if they are not published!
+              All of the gifs below are examples of my projects and work that I am most excited about! Mouse over them for more details and click to use them or see their github repo if they are not published!
             </p>
           </div>
           <div className="flex flex-col justify-center items-center">
