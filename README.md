@@ -2,11 +2,7 @@
 
 This is the repo for my SWE portfolio. It is still a work in progress, but in a pretty solid state right now. Feel free to look through the code and use it for your own website. It is published with Netlify
 
-<div align="center">
-  <kbd>
-    <img src="https://iankinkead.com" />
-  </kbd>
-</div>
+  [My SWE Portfolio](https://www.iankinkead.com)
 
 ## Description
 
