@@ -14,8 +14,10 @@ export default function Home() {
           </h2>
           <p className="leading-relaxed text-slate-500 text-lg text-center rounded-lg shadow-2xl">
             I am a full-stack developer, with passions for IDEs, compilers,
-            web apps, game development, and really any tool that empowers others. I am currently focused on 
-            contributing to the open-source community, specifically dotnet/roslyn. 
+            web apps, game development, and really any tool that empowers others.
+            With a strong foundation in computer science and a knack for problem-solving, 
+            I am constantly exploring new technologies and staying up-to-date with 
+            industry trends to create efficient, scalable, and user-friendly solutions.
             <br />
           </p>
         </div>
