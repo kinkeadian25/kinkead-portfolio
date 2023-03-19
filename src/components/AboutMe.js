@@ -18,9 +18,8 @@ export default function AboutMe() {
           <div className="bg-black border px-3 border-slate-400 m-6 shadow-xl">
             <p className="my-3 text-slate-400 text-lg">
               Hello! My name is Ian Kinkead. I am a Navy Veteran and Microsoft
-              Software and Systems Academy student! I love building software! In
-              fact, I love it so much that my favorite software to work on is
-              anything that helps other programmers do their jobs! I am
+              Software and Systems Academy student! I love building software! I am currently 
+              looking for work and freelanace opportunities either remotely or in the Seattle area. I am
               committed to learning how I can make technology more inclusive,
               high-performing and maintainable everyday.
             </p>
@@ -33,8 +32,7 @@ export default function AboutMe() {
               version of themselves!
             </p>
             <p className="my-3 text-slate-400 text-lg">
-              I also love making full-stack web-apps, specifically with React
-              and ASP.NET Core! Feel free to reach out if you need a website for
+              I also love making full-stack web-apps and static websites as a hobby with many different technologies! Feel free to reach out if you need a website for
               your business.
             </p>
           </div>

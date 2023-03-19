@@ -16,6 +16,14 @@ export const projects = [
     link: "https://kinkeadian25.itch.io/up-in-flames",
   },
   {
+    title: "Website for local business",
+    subtitle: "Eleventy, HTML, CSS, Less, JavaScript, and Netlify",
+    description:
+      "A website built for a local brewery using Eleventy! Eleventy is a static site generator that uses JavaScript and HTML to generate a static website. I also used Netlify + CMS to host the website, to create the ability for the business owner to post events without needing to learn how to code",
+    image: "./images/project-5.gif",
+    link: "https://github.com/kinkeadian25/template-v1",
+  },
+  {
     title: "Roslyn Open Source Contributions",
     subtitle: "C#",
     description:
