@@ -18,8 +18,10 @@ export default function AboutMe() {
           <div className="bg-black border px-3 border-slate-400 m-6 shadow-xl">
             <p className="my-3 text-slate-400 text-lg">
               Hello! My name is Ian Kinkead. I am a Navy Veteran and Microsoft
-              Software and Systems Academy student! I love building software! I am currently 
-              looking for work and freelanace opportunities either remotely or in the Seattle area. I am
+              Software and Systems Academy graduate! I love building software! I am currently 
+              looking for work that is either remote or in the Seattle area. 
+              After just over 4 years of self-taught, education, and experience-based programming. 
+              I am officially separated from the Navy, and I am
               committed to learning how I can make technology more inclusive,
               high-performing and maintainable everyday.
             </p>
